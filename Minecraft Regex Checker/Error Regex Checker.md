@@ -12,10 +12,10 @@ I also only tested this with one error, so, it may not even work fully. But, it 
 
 Anyways..
 
-Event name: "(?<=Could not pass event\s).+?(?=\s\bto\b)"
-Plugin name and version: "(?<=Could not pass event.+?\bto\s)\w+\s[\w\.]+"
-Type of error: "(?<=Caused by:\s)\S+"
-Path to line: "?<=at\s).+?(?=\s~\[\?:\?])"
+- Event name: "(?<=Could not pass event\s).+?(?=\s\bto\b)"
+- Plugin name and version: "(?<=Could not pass event.+?\bto\s)\w+\s[\w\.]+"
+- Type of error: "(?<=Caused by:\s)\S+"
+- Path to line: "?<=at\s).+?(?=\s~\[\?:\?])"
 
 Maybe someone will find this interesting, haha.
 
